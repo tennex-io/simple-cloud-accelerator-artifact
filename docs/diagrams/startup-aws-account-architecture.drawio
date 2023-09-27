@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" modified="2023-09-27T19:37:20.326Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="21.8.2" etag="Si5M5aEi4wnoFrnYQTP_" type="device">
+  <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
+    <mxGraphModel dx="1434" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-QjtrjUzRDEMRZ5MF8oH-47" value="Simple Cloud Accelerator" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="36.5" y="24.5" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-QjtrjUzRDEMRZ5MF8oH-48" value="AWS Organizations - Accounts and Organizational Units (OU)" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="36.5" y="64.5" width="450" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SCVMTBWpLvtzJIhz15lM-1" value="" style="line;strokeWidth=2;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="20" y="90" width="1110" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="Suspended OU" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="590" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="Used to maintain a record of accounts that have been closed." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="22" vertex="1">
+          <mxGeometry x="67.5" y="50" width="218" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="Contract Research Organization (CRO) OU" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="590" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="Used for accounts that have been created for CRO operations.&amp;nbsp; These can be transitioned to the Suspended OU once closed." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="25" vertex="1">
+          <mxGeometry x="57.5" y="55" width="252.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#B0084D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.organizations_management_account2;" parent="1" vertex="1">
+          <mxGeometry x="60" y="190" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="&lt;h1&gt;Organization/Payer&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Centralizes AWS spending via Consolidated Billing&lt;/li&gt;&lt;li&gt;Service Control Policies (SCPs) provide security baselines across all child accounts.&amp;nbsp; Policies can be applied directly to child accounts or Organizational Units.&lt;/li&gt;&lt;li&gt;Provides Organization-wide security services - GuardDuty, CloudTrail, Config, etc.&lt;/li&gt;&lt;li&gt;Optional AWS Single Sign on (SSO)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="111.25" y="120" width="250" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="LPik06-XiFyEXSqsLufP-27" value="Security OU" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="120" width="350" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="LPik06-XiFyEXSqsLufP-10" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#B0084D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.organizations_account2;" parent="LPik06-XiFyEXSqsLufP-27" vertex="1">
+          <mxGeometry x="27.5" y="70" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LPik06-XiFyEXSqsLufP-11" value="&lt;h1&gt;Security/Logging&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Centralizes logging and monitoring for all Organization accounts&lt;/li&gt;&lt;li&gt;AWS CloudTrail records all API activity&lt;/li&gt;&lt;li&gt;AWS Config monitors and records resource changes and optionally evaluates compliance requirements&lt;/li&gt;&lt;li&gt;GuardDuty monitors DNS queries and VPC flowlogs for malicious activity&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="LPik06-XiFyEXSqsLufP-27" vertex="1">
+          <mxGeometry x="80" y="23.5" width="264.5" height="199" as="geometry" />
+        </mxCell>
+        <mxCell id="LPik06-XiFyEXSqsLufP-38" value="Research OU" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="390" width="710" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="" style="group" parent="LPik06-XiFyEXSqsLufP-38" vertex="1" connectable="0">
+          <mxGeometry x="50" y="34" width="930" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Development Accounts" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=1;fontColor=#000000;" parent="14" vertex="1">
+          <mxGeometry width="237.54098360655738" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#B0084D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.organizations_account2;" parent="14" vertex="1">
+          <mxGeometry x="50.003606557377054" y="45" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#B0084D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.organizations_account2;" parent="14" vertex="1">
+          <mxGeometry x="150.00229508196722" y="45" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="46" value="" style="group" parent="14" vertex="1" connectable="0">
+          <mxGeometry x="300" width="630" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="47" value="Production Accounts" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=1;fontColor=#000000;" parent="46" vertex="1">
+          <mxGeometry width="237.54098360655738" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="48" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#B0084D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.organizations_account2;" parent="46" vertex="1">
+          <mxGeometry x="50.003606557377054" y="45" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="49" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#B0084D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.organizations_account2;" parent="46" vertex="1">
+          <mxGeometry x="150.00229508196722" y="45" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Infrastructure OU&lt;br&gt;" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="120" width="350" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#B0084D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.organizations_account2;" parent="4" vertex="1">
+          <mxGeometry x="10" y="72.75" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="&lt;h1&gt;Shared Services&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Contains core resources for use across all infrastructure accounts&lt;/li&gt;&lt;ul&gt;&lt;li&gt;DNS&lt;/li&gt;&lt;li&gt;Authentication via SSO and/or Active Directory (Optional)&lt;/li&gt;&lt;li&gt;Transit Gateway (Optional)&lt;/li&gt;&lt;li&gt;Site-to-Site VPN (Optional)&lt;/li&gt;&lt;li&gt;Client VPN (Optional)&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="4" vertex="1">
+          <mxGeometry x="70" y="25" width="252" height="225" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

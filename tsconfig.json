@@ -1,0 +1,39 @@
+{
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  },
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "commonjs",
+    "lib": ["es2018"],
+    "baseUrl": "./",
+    "paths": {
+      "@bin/*": ["./bin/*"],
+      "@common/*": ["lib/common/*"],
+      "@config/*": ["config/*"],
+      "@constructs/*": ["lib/constructs/*"],
+      "@customResources/*": ["lib/custom-resources/*"],
+      "@environments/*": ["lib/environments/*"],
+      "@helpers/*": ["lib/helpers/*"],
+      "@lib/*": ["lib/*"],
+      "@test/*": ["test/*"]
+    },
+    "declaration": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": false,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "strictPropertyInitialization": false,
+    "typeRoots": ["./node_modules/@types"]
+  },
+  "exclude": ["node_modules", "cdk.out"]
+}
